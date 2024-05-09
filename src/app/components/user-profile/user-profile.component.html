@@ -1,0 +1,28 @@
+<!-- <h1>This is a user profile</h1>
+{{}} is interpolation
+<h4>{{name.toUpperCase()}} {{status}} {{salary}}</h4>
+property binding
+<button [disabled]="isButtonDisabled">Click Me</button>
+
+event binding
+<h1>{{inputVal}}</h1>
+<input type="text" [value]="inputVal" (input)="onChange($event)">
+
+<div>
+    @for(user of users;track user.name){
+    @if(user.salary > 1000){ <h4>{{user.name}} {{user.isSingle?"single":"Coder"}} {{user.salary}}</h4>}
+    @else{
+    <h4>{{user.name}} {{user.isSingle?"single":"Coder"}} hidden</h4>
+    }
+    }
+</div>
+<hr>
+structured directive
+<div *ngFor="let user of users">
+    <h4 *ngIf="user.salary > 1000;else elseBlock">{{user.name}} {{user.isSingle?"single":"Coder"}} {{user.salary}}</h4>
+    <ng-template #elseBlock>
+        <h4>{{user.name}} {{user.isSingle?"single":"Coder"}} hidden</h4>
+    </ng-template>
+</div> -->
+
+<h1>hola {{name}} {{isSingle?"single":"coder"}} {{salary}}</h1>
